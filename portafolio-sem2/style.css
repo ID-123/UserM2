@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #9af764;
+    display: inline-block;
+    margin: 16px;
+    padding: 24px;
+}
+
+header{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+}
+
+#proyects{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 24px;
+}
+
+#pets{
+    /*display: flex;
+    flex-wrap: wrap;*/
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+.card img{
+    border-radius: 10px;
+    box-shadow: 0 0 3px black;
+}
