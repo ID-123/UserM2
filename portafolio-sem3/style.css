@@ -143,6 +143,14 @@ section {
     gap: 1.5rem;
 }
 
+/* ==================================================
+    FORMULARIO
+================================================== */
+form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    gap: 3px;
+}
 
 /* ==================================================
     SECCIÓN MASCOTAS
@@ -195,7 +203,7 @@ a:hover {
 ================================================== */
 
 /* Smartphones */
-@media (max-width: 600px) {
+@media (max-width: 1023px) {
     header ul {
         display: flex;
         flex-direction: column;
